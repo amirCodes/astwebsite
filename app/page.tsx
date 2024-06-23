@@ -4,6 +4,8 @@ import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
+import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 
 const navItems = [
   {
@@ -30,6 +32,8 @@ export default function Home() {
         <HeroSection />
         <Grid />
         <RecentProjects />
+        <Experience />
+        <Footer />
       </div>
     </main>
   );
