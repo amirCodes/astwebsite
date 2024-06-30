@@ -3,6 +3,10 @@ import HeroSection from "@/components/HeroSection";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Grid from "@/components/Grid";
+import RecentProjects from "@/components/RecentProjects";
+import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
+import Hero2 from "@/components/Hero2";
 
 const navItems = [
   {
@@ -23,18 +27,13 @@ const navItems = [
 ];
 export default function Home() {
   return (
-    <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+    <main className=" bg-black text-white-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <HeroSection />
-        <Grid />
-        {/* <FloatingNav navItems={navItems} />
-        <Grid />
         <RecentProjects />
-        <Clients />
         <Experience />
-        <Approach />
-        <Footer /> */}
+        <Footer />
       </div>
     </main>
   );
