@@ -7,6 +7,7 @@ import RecentProjects from "@/components/RecentProjects";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Hero2 from "@/components/Hero2";
+import TechStack from "@/components/TechStack";
 
 const navItems = [
   {
@@ -31,6 +32,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <HeroSection />
+        <TechStack />
         <RecentProjects />
         <Experience />
         <Footer />
