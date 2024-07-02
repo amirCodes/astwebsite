@@ -32,9 +32,10 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <HeroSection />
+        <Experience />
         <TechStack />
         <RecentProjects />
-        <Experience />
+      
         <Footer />
       </div>
     </main>
