@@ -7,9 +7,11 @@ const Experience = () => {
   return (
     <div className="py-20 w-full">
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+      Interested<span className="text-green-500"> in collaborating with me?
+        </span>
       </h1>
-
+       <p className="w-full items-center text-center">I’m always open to discussing build webise, development work and partnership opportunities.
+       </p>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (
           <Button

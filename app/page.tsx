@@ -6,25 +6,25 @@ import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Hero2 from "@/components/Hero2";
+import WorkExperience from "@/components/WorkExperience";
 import TechStack from "@/components/TechStack";
 
 const navItems = [
   {
     name: "Home",
     link: "/",
-    icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />
   },
   {
     name: "About",
     link: "/about",
-    icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />
   },
   {
     name: "Contact",
     link: "/contact",
-    icon: <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />,
-  },
+    icon: <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+  }
 ];
 export default function Home() {
   return (
@@ -32,10 +32,10 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <HeroSection />
+        <WorkExperience />
         <Experience />
         <TechStack />
         <RecentProjects />
-      
         <Footer />
       </div>
     </main>

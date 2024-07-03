@@ -5,8 +5,7 @@ import { FaReact } from "react-icons/fa";
 import StackIcon from "tech-stack-icons"; // You can also use any another import name
 
 import { techStackLists } from "@/data";
-
-
+import Link from "next/link";
 
 export default function Example() {
   return (
@@ -17,7 +16,11 @@ export default function Example() {
             Tech stacks: Mastering Modern Tools for Development and Deployment
           </h2>
           <p className="mt-2 text-lg leading-8 dark:text-gray-100">
-          As a software engineer, I specialize in React.js for dynamic UIs, Node.js for scalable backend solutions, and TypeScript for robust, type-safe code. I've also leveraged AWS and Docker for cloud deployments, Git for version control, and MongoDB for efficient data management.
+            As a software engineer, I specialize in React.js for dynamic UIs,
+            Node.js for scalable backend solutions, and TypeScript for robust,
+            type-safe code. I've also leveraged AWS and Docker for cloud
+            deployments, Git for version control, and MongoDB for efficient data
+            management.
           </p>
         </div>
         <ul
@@ -27,7 +30,7 @@ export default function Example() {
           {techStackLists.map((stack) => (
             <li
               key={stack.name}
-              className="group/item flex justify-between shadow-lg border-2 p-2 rounded-lg border-gray-600 bg-slate-800 group-hover/item:border-gray-400"
+              className="group/item flex justify-between shadow-lg ease-out duration-300 hover:shadow-gray-500 transform-gpu border-2 p-2 rounded-lg border-gray-600 bg-slate-800 group-hover/item:border-gray-400"
             >
               <div className="flex items-center gap-x-6">
                 {/* <img
@@ -54,7 +57,10 @@ export default function Example() {
                 </div>
               </div>
               <div className="group/edit invisible group-hover/item:visible focus:text-blue-600 group-hover:text-blue-500">
-                <TiArrowForwardOutline width={55} height={55} />
+                <Link href={stack.url} className="hover:text-blue-500 cursor-pointer">
+                  {" "}
+                  <TiArrowForwardOutline width={65} height={65} />
+                </Link>
                 {/* <span className="group-hover/edit:text-gray-700 ...">Call</span> */}
               </div>
             </li>
