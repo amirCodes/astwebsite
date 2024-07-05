@@ -6,7 +6,7 @@ const Hero2 = () => {
   return (
     <div className="-my-6">
       <h1 className="heading">
-        My <span className="text-blue-500">work experience</span>
+        My work <span className="text-blue-500">experience</span>
       </h1>
       <div className="relative pl-8 sm:pl-32 py-6 group">
         {/* <!-- Purple label --> */}
@@ -18,7 +18,7 @@ const Hero2 = () => {
           <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
             Jul, 2024
           </time>
-          <div className="text-xl font-bold text-slate-200 dark:text-slate-900">
+          <div className="text-xl font-bold text-slate-600 dark:text-slate-200">
             TDCX (MY) Sdn. Bhd. Full-time, Jul 2024 - Present{" "}
           </div>
         </div>
