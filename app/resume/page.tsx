@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-const myResume = "@/public/Amir-CV.pdf";
+const myResume = "./Amir-CV.pdf";
 function Resume() {
   return (
     <div className="p-2 m-2">

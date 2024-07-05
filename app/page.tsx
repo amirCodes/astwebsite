@@ -4,7 +4,7 @@ import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
-import Experience from "@/components/Experience";
+import Services from "@/components/Services";
 import Footer from "@/components/Footer";
 import WorkExperience from "@/components/WorkExperience";
 import TechStack from "@/components/TechStack";
@@ -26,18 +26,20 @@ const navItems = [
     icon: <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
   }
 ];
-export default function Home() {
+const Home = () => {
   return (
     <main className=" bg-black text-white-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <HeroSection />
         <WorkExperience />
-        <Experience />
+        <Services />
         <TechStack />
         <RecentProjects />
         <Footer />
       </div>
     </main>
   );
-}
+};
+
+export default Home;

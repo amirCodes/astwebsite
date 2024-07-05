@@ -170,34 +170,34 @@ export const navItems = [
     },
   ];
   
-  export const workExperience = [
+  export const servicesList = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Design & develop modern website",
+      desc: "Crafting high-quality, modern websites at the best prices, ensuring top-notch design and functionality for every project",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
+      id: 2,
+      title: "Hosting and official emails",
+      desc: "We provide multiple option web hosting and official email with best secure and swift server \n  هاست ویبسایت و ساخت ایمیل رسمی با نازل ترین قیمت ماهانه, سالانه با سیستم امنیتی کامل موجود هست ",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/exp4.svg",
+    },
+    {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Cloud hostind, VPN, Firewall",
+      desc: "We offer cloud hosting and server, Secure VPN, and Firewall for your homes and small business",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Landing & campaign single page",
+      desc: "Developed and maintained user-facing features using modern frontend technologies for single page web app.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/exp1.svg",
     },
   ];
   
