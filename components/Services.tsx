@@ -1,11 +1,11 @@
 import React from "react";
 
-import { workExperience } from "@/data";
+import { servicesList } from "@/data";
 import { Button } from "./ui/MovingBorders";
 
-const Experience = () => {
+const Services = () => {
   return (
-    <div className="py-20 w-full">
+    <div className="py-5 w-full">
       <h1 className="heading">
       Interested<span className="text-green-500"> in collaborating with me?
         </span>
@@ -13,7 +13,7 @@ const Experience = () => {
        <p className="w-full items-center text-center">I’m always open to discussing build webise, development work and partnership opportunities.
        </p>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
-        {workExperience.map((card) => (
+        {servicesList.map((card) => (
           <Button
             key={card.id}
             //   random duration will be fun , I think , may be not
@@ -29,7 +29,7 @@ const Experience = () => {
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
             // remove bg-white dark:bg-slate-900
-            className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            className="flex-1 dark:text-white border-neutral-200 dark:border-slate-800"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img
@@ -53,4 +53,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Services;
