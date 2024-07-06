@@ -10,7 +10,7 @@ function Resume() {
       >
         Back to home
       </Link>
-      <iframe src={myResume} />
+      <iframe src={myResume} width='100%' className="w-full min-h-screen" />
     </div>
   );
 }
