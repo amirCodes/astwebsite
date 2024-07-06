@@ -1,8 +1,8 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
+  { name: "Home", link: "home" },
+    { name: "About", link: "about" },
+    { name: "Resume", link: "resume" },
+    { name: "Login", link: "login" },
   ];
   
   export const gridItems = [
@@ -182,14 +182,14 @@ export const navItems = [
       id: 2,
       title: "Hosting and official emails",
       desc: "We provide multiple option web hosting and official email with best secure and swift server \n  هاست ویبسایت و ساخت ایمیل رسمی با نازل ترین قیمت ماهانه, سالانه با سیستم امنیتی کامل موجود هست ",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
     {
       id: 3,
       title: "Cloud hostind, VPN, Firewall",
       desc: "We offer cloud hosting and server, Secure VPN, and Firewall for your homes and small business",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
