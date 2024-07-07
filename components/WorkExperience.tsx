@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
-import { PinContainer } from "@/components/ui/3d-pin";
 
-const Hero2 = () => {
+const WorkExperience = () => {
   return (
     <div className="-my-6">
       <h1 className="heading">
@@ -18,25 +17,25 @@ const Hero2 = () => {
           <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
             Jul, 2024
           </time>
-          <div className="text-xl font-bold text-slate-600 dark:text-slate-200">
+          <div className="text-xl font-bold text-slate-300 dark:text-slate-200">
             TDCX (MY) Sdn. Bhd. Full-time, Jul 2024 - Present{" "}
           </div>
         </div>
         {/* <!-- Content --> */}
-        <div className="text-slate-400">
-          • Own and drive query resolution through collaboration with in-house
+        <div className="text-slate-300">
+          - Own and drive query resolution through collaboration with in-house
           product operations & engineering groups to resolve all types of
           queries.
           <br />
-          • Work on case volumes across email and chat channels
+          - Work on case volumes across email and chat channels
           <br />
-          • Drive overall customer satisfaction metrics ensuring service quality
+          - Drive overall customer satisfaction metrics ensuring service quality
           through case journey and providing regular updates across touch
           points.
           <br />
-          • Drive adherence to service levels across channels and achieve Best
+          - Drive adherence to service levels across channels and achieve Best
           in Class productivity, impacting resolution times for end customers.
-          <br />• Partner with in-house technical specialists to educate
+          <br />- Partner with in-house technical specialists to educate
           advertisers on product features and common issue types
         </div>
       </div>
@@ -158,4 +157,4 @@ const Hero2 = () => {
     </div>
   );
 };
-export default Hero2;
+export default WorkExperience;
