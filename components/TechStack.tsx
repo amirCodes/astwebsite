@@ -7,7 +7,7 @@ import StackIcon from "tech-stack-icons"; // You can also use any another import
 import { techStackLists } from "@/data";
 import Link from "next/link";
 
-export default function Example() {
+const TechStackList = () => {
   return (
     <div className=" py-4 sm:py-32">
       <div className="flex flex-col gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
@@ -57,7 +57,10 @@ export default function Example() {
                 </div>
               </div>
               <div className="group/edit invisible group-hover/item:visible focus:text-blue-600 group-hover:text-blue-500">
-                <Link href={stack.url} className="hover:text-blue-500 cursor-pointer">
+                <Link
+                  href={stack.url}
+                  className="hover:text-blue-500 cursor-pointer"
+                >
                   {" "}
                   <TiArrowForwardOutline width={65} height={65} />
                 </Link>
@@ -69,4 +72,6 @@ export default function Example() {
       </div>
     </div>
   );
-}
+};
+
+export default TechStackList;

@@ -1,13 +1,9 @@
 import React from "react";
 import Link from "next/link";
-function Resume() {
+const Resume = () => {
   return (
     <div className="w-full bg-black-100 text-white">
-                
-                 <Link
-        href="/"
-        className="p-2 text-left decoration-slice dark:text-white"
-      >
+      <Link href="/" className="p-2 text-left decoration-slice dark:text-white">
         Access not allowed, Click here to go back to home
       </Link>
       <div className="border border-blue-300 shadow rounded-md p-4 w-full h-screen mx-auto">
@@ -20,14 +16,13 @@ function Resume() {
                 <div className="h-2 bg-slate-200 rounded col-span-2"></div>
                 <div className="h-2 bg-slate-200 rounded col-span-1"></div>
               </div>
-              <div className="h-2 bg-slate-200 rounded">
-              </div>
+              <div className="h-2 bg-slate-200 rounded"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Resume;
