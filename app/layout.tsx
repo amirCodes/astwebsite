@@ -5,8 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Amir Codes",
-  description: "Amir's portfolio",
+  title: "AmirCodes",
+  description: "Discover specialized expertise in crafting impactful landing pages tailored for advertising purposes and many more. We offer a range of solutions designed to enhance your online presence and drive engagement effectively.",
+  keywords: ["software", "LandingPage", "Landing page", "World Map","coding","website", "amircodes"],
+  openGraph: {
+    images: './logo.png',
+  }
 };
 
 export default function RootLayout({
