@@ -16,7 +16,7 @@ const TechStackList = () => {
           <p className="mt-2 text-lg leading-8 dark:text-gray-100">
             As a software engineer, I specialize in React.js for dynamic UIs,
             Node.js for scalable backend solutions, and TypeScript for robust,
-            type-safe code. I've also leveraged AWS and Docker for cloud
+            type-safe code. I have also leveraged AWS and Docker for cloud
             deployments, Git for version control, and MongoDB for efficient data
             management.
           </p>
