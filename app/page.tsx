@@ -2,7 +2,6 @@ import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import Services from "@/components/Services";
 import Footer from "@/components/Footer";
