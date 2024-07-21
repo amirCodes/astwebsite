@@ -12,6 +12,8 @@ const Footer = () => {
           src="/footer-grid.svg"
           alt="grid"
           className="w-full h-full opacity-50"
+          width={100}
+          height={100}
         />
       </div>
 
@@ -28,7 +30,7 @@ const Footer = () => {
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
-            position="right"
+            position="right" 
           />
         </a>
       </div>
