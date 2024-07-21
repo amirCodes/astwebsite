@@ -8,7 +8,6 @@ import Services from "@/components/Services";
 import Footer from "@/components/Footer";
 import WorkExperience from "@/components/WorkExperience";
 import TechStack from "@/components/TechStack";
-
 const navItems = [
   {
     name: "Home",
