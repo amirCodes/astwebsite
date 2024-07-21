@@ -1,8 +1,6 @@
 import React from "react";
-import { PiPencilBold, PiLinkBold } from "react-icons/pi";
 import { TiArrowForwardOutline } from "react-icons/ti";
-import { FaReact } from "react-icons/fa";
-import StackIcon from "tech-stack-icons"; // You can also use any another import name
+import StackIcon from "tech-stack-icons";
 
 import { techStackLists } from "@/data";
 import Link from "next/link";
