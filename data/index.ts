@@ -1,8 +1,10 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "Home", link: "home" },
-    { name: "About", link: "about" },
-    { name: "Resume", link: "resume" },
-    { name: "Login", link: "login" },
+    { name: "Services", link: "service" },
+    { name: "About Us", link: "about" },
+    {name: "Contact Us", link: "contact"},
   ];
   
   export const gridItems = [
