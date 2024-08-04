@@ -7,11 +7,11 @@ const Services = () => {
   return (
     <div className="py-5 w-full">
       <h1 className="heading">
-        Interested
-        <span className="text-green-500"> in collaborating with me?</span>
+        Our
+        <span className="text-green-500"> Services</span>
       </h1>
       <p className="w-full items-center text-center">
-        I’m always open to discussing build webise, development work and
+        We are always open to discussing build webise, development work and
         partnership opportunities.
       </p>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
