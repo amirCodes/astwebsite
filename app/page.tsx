@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <main className=" bg-black text-white-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
-        {/* <FloatingNav navItems={navItems} /> */}
+        {/* <FloatingNav navItems={navItems} /> // moved to layout page */}
         <HeroSection />
         <WorkExperience />
         <Services />
