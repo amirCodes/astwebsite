@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Resume = () => {
   return (
-    <div className="w-full bg-black-100 text-white">
+    <div className=" bg-black text-white-100 flex justify-center items-center flex-col h-screen sm:px-10 px-5">
       <Link href="/" className="p-2 text-left decoration-slice dark:text-white">
         Access not allowed, Click here to go back to home
       </Link>

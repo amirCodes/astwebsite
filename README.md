@@ -8,7 +8,7 @@ create new branch:  ``` git checkout -b ＜new-branch＞ ```
 
 switch to your own branch: ``` git checkout khalil  // expected OP Switched to branch 'khalil' ```
 
-P>S: for the very first time commit and push need to do this `` git push --set-upstream origin khalil ``
+P.S: for the very first time commit and push need to do this `` git push --set-upstream origin khalil ``
 
 `````
 ``` 
@@ -19,6 +19,7 @@ E:\dicr\AST> git branch
  
 ```
 `````
+### 
 
 First: clone the git repo
 

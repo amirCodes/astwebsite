@@ -7,11 +7,13 @@ const Services = () => {
   return (
     <div className="py-5 w-full">
       <h1 className="heading">
-      Interested<span className="text-green-500"> in collaborating with me?
-        </span>
+        Interested
+        <span className="text-green-500"> in collaborating with me?</span>
       </h1>
-       <p className="w-full items-center text-center">I’m always open to discussing build webise, development work and partnership opportunities.
-       </p>
+      <p className="w-full items-center text-center">
+        I’m always open to discussing build webise, development work and
+        partnership opportunities.
+      </p>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {servicesList.map((card) => (
           <Button
@@ -26,7 +28,7 @@ const Services = () => {
               backgroundColor:
                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
               // add this border radius to make it more rounded so that the moving border is more realistic
-              borderRadius: `calc(1.75rem* 0.96)`,
+              borderRadius: `calc(1.75rem* 0.96)`
             }}
             // remove bg-white dark:bg-slate-900
             className="flex-1 dark:text-white border-neutral-200 dark:border-slate-800"

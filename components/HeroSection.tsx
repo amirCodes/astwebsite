@@ -27,7 +27,7 @@ const HeroSection = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Amir, a Software Engineer based in Kuala Lumpur.
+            Hi! We&apos;re AST, Software Engineer team based in Kuala Lumpur.
           </p>
 
           <Link href="https://github.com/amirCodes" target="_blank" rel="Check out my github account" className="z-50" >
