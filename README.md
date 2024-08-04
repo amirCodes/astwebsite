@@ -1,12 +1,10 @@
-Simple personal portfolio inspired from many other developer portfolios.
-Anyone want to use this portfolio, feel free to use and edit it for your personal portfolio. 
 
 
 ## Getting Started
 
 First: clone the git repo
 
-``` git clone https://github.com/amirCodes/myportfolio.git ```
+``` git clone https://github.com/amirCodes/astwebsite.git ```
 
 Second, run the development server:
 
